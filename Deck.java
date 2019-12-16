@@ -8,8 +8,8 @@ public class Deck {
 	 public Deck(){ //initializes a deck of cards
 		 cards = new ArrayList<Card>();
 		 
-		 for(int a =0; a<=12; a++){
-			 cards.add(new Card(a));
+		 for(int i = 0; i <= 12; i++){
+			 cards.add(new Card(i));
 		 }
 	 }
 	 
